@@ -6,6 +6,4 @@ https://youtu.be/tdVbtP4xtk0
 
 # Documentació
 
-Codis exemple utilitzats al screencast:
-
-https://github.com/acacha/101_NODEJS_NPM
+https://github.com/acacha/wiki/blob/main/NODE_JS.md
