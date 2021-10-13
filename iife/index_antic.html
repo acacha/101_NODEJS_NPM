@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    function user() {
+        let email = 'sergiturbadenas@gmail.com';
+        var password = 'asdasdasdas';
+
+        function consoleme() {
+            console.log('Usuari: ' + email)
+        }
+
+        return {
+            consoleme: consoleme,
+            email: email
+        }
+    }
+
+    var sergi = user()
+    sergi.consoleme()
+    console.log(sergi.email);
+    console.log('HEY!')
+
+
+
+    // IIFE
+    // (function () {
+    //     // algún código aquí
+    // })();
+</script>
+
+</body>
+</html>
